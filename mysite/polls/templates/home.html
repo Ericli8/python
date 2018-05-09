@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p> </p>
+
+    <tr>
+         <td>{{ data }}</td>
+         <td></td>
+    </tr>
+
+<form action="textpost" method="POST">
+        {% csrf_token %}
+
+    name: <input type="text" name="name"> <br>
+    content: <input type="text" name="content"> <br>
+     
+    <input type="submit" value="提交">
+</form>
+ 
+
+
+</body>
+<script>
+
+
+</script>
+
+
+</html>
